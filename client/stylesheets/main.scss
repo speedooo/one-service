@@ -1,0 +1,95 @@
+@import "base";
+@import "layout";
+@import "components";
+
+
+.category-page {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.content-column {
+  padding: 0;
+}
+
+.card-row {
+  margin: 0 4px;
+
+  [class*=col-] {
+    padding: 0 4px;
+  }
+}
+
+.card {
+  margin: 0 0 8px;
+
+  .card-thumbnail {
+    position: relative;
+
+    img {
+      border-radius: 5px;
+    }
+
+    .price {
+      width: 100%;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      background: rgba(0,0,0,.5);
+      border-radius: 0 0 5px 5px;
+      padding: 5px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .card-content {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    padding: 10px;
+
+    .title {
+      display: block;
+      color: #808080;
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0 0 2px;
+    }
+
+    .price {
+      font-weight: bold;
+    }
+  }
+}
+
+.container{
+
+  display:flex;
+}
+
+#channel-menu {
+    flex:0 0 30%;
+    background-color: blueviolet;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+li {
+    padding: 10px 0;
+}
+
+#chat {
+    flex:1;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+#login-dropdown-list{
+  top: 5px;
+left: -195px;
+}

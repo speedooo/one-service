@@ -1,0 +1,49 @@
+.no-margin { margin: 0; }
+
+.no-padding { padding: 0; }
+
+.small-text { font-size: 12px; }
+
+.subtle-text { color: #999; }
+
+.truncate-text {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.material-icons { 
+  display: inline-flex;
+  vertical-align: top;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.btn-default {
+  color: #fff;
+  background: #FF5E91;
+  border-color: #FF5E91;
+}
+
+.btn-primary {
+  background: #66BB6A;
+  border-color: #66BB6A;
+
+  &:hover {
+    background: #FF5E91;
+    border-color: #FF5E91;
+  }
+}
